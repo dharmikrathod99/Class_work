@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: purple;
+}
+body{background-color: black;}
+p{
+    color: yellowgreen;
+    font-size: 20px;
+}
+div{
+    background-color: rgb(80, 5, 108);
+    color: white;
+    padding: 10px;
+}
+.t-6{
+    height: 100px;
+    width: 100px;
+    background-color: saddlebrown;
+    color: white;
+}
+.t-6:hover{
+    background-color: rgb(46, 9, 194);
+}
+.t-7{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 230, 41);
+    color: white;
+    text-align: center;
+}
+.t-8{
+    height: 1200px;
+    width: 300px;
+    background-color: rgb(197, 230, 12);
+    color: white;
+    border: 2px solid rgb(255, 0, 0);
+}
+button:hover{
+    cursor: pointer;
+}
