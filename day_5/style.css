@@ -1,0 +1,159 @@
+/* =======================text propertices====================================== */
+.pera1 {
+    text-align: center;
+}
+
+.heading1 {
+    text-decoration: underline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.exspace {
+    letter-spacing: 2px;
+}
+
+.wordspace {
+    word-spacing: 5px;
+}
+
+.justify {
+    text-justify: auto;
+    /*  =======================>querry */
+}
+
+.link {
+    text-decoration: none;
+}
+
+.blocktext {
+    text-align: justify;
+}
+
+.line-through-effect {
+    text-decoration: line-through;
+}
+
+.text-pop {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+/* ================= font propertices ======================================== */
+.font {
+    font-family: "roboto";
+}
+
+.responsive {
+    font-size: 5em;
+    /* ==========querry================== */
+}
+
+.boldpera {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.line1 {
+    line-height: normal;
+}
+
+.line2 {
+    line-height: 1.5;
+}
+
+;
+
+.line3 {
+    line-height: 2.0;
+}
+
+.line4 {
+    line-height: 0.5;
+}
+
+.font-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.responsive-pera {
+    width: 80%;
+}
+
+.com-pera {
+    font-style: italic;
+    line-height: 3.0;
+}
+
+.cus-heading {
+    font-weight: 200;
+}
+
+
+
+/* ================= background propertices ======================================== */
+.box1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.box2 {
+    background-image: linear-gradient(red, yellow);
+    height: 100px;
+    width: 100px;
+}
+
+.box3 {
+    background-image: url(https://png.pngtree.com/png-vector/20191121/ourmid/pngtree-blue-bird-vector-or-color-illustration-png-image_2013004.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+}
+
+.back-ground {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 90vw;
+}
+
+.box4 {
+    background-image:url(https://hips.hearstapps.com/hmg-prod/images/medium-sized-dogs-1613083812.jpg?crop=0.670xw:1.00xh;0.0369xw,0&resize=1200:*);
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    position: relative;
+    background-position: cover;
+}
+.box5 {
+    background-image:url(https://hips.hearstapps.com/hmg-prod/images/dog-shetland-sheepdog-collie-sheltie-royalty-free-image-491206081-1565123992.jpg?crop=0.753xw:1.00xh;0.152xw,0&resize=980:*);
+    height: 400px;
+    width: 500px;
+    background-position: center;
+    background-position: cover;
+}
+.box6 {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfgPEuSjYukMlsLp23D-f9rPpyw2HFXiA7zQ&s);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-position: cover;
+}
+
+/* ----------------------querry---------------------------------------------- */
+.semi-trans-color{
+    height: 300px;
+    width: 300px;
+    background-color:rgba(255, 0, 0, 0.6);
+}
