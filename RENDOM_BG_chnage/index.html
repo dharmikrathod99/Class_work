@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rendom bg change</title>
+</head>
+
+<body>
+    <h1>Rendom BG Chnage </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ut porro ipsam similique necessitatibus sapiente,
+        aliquid assumenda pariatur magnam nihil dolores? A, harum eveniet alias ex eos possimus odio? Laboriosam?</p>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+    <script>
+        const randomcolor = function () {
+            let hex = "0123456789ABCDEF";
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += hex[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        };
+        let ineralId;
+        const colorchanging = function () {
+
+            ineralId= setInterval(changebg,1000);
+
+            function changebg() {
+                document.body.style.backgroundColor = randomcolor();
+            }
+        }
+        const stopchnaging = function(){
+            clearInterval(ineralId);
+        }
+
+        document.querySelector("#start").addEventListener('click', colorchanging);
+        document.querySelector("#stop").addEventListener('click', stopchnaging);
+        
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
